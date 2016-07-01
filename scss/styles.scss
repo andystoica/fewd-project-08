@@ -1,0 +1,21 @@
+// Color Variables
+$color-background  : #2d2b30;
+$color-orange      : #c2ad38;
+$color-red         : #d15f75;
+
+$color-black       : #333333;
+$color-medium-grey : #817f82;
+$color-light-grey  : #cccccc;
+$color-white       : #eeeeee;
+
+$color-thematic    : #9e9492;
+
+
+// Imports
+@import "global";
+@import "header";
+@import "content";
+@import "footer";
+
+@import "survey";
+@import "tour";

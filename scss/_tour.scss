@@ -1,0 +1,48 @@
+/* Tour page styles */
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+table {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  background: rgba($color-thematic, .1);
+  border-collapse: collapse;
+
+  caption {
+    background: $color-thematic;
+    color: $color-black;
+    font-weight: normal;
+    padding: 8px
+  }
+
+  tr:nth-of-type(2n+1) {
+    background: rgba($color-thematic, .1);
+  }
+
+  td, th {
+    padding: 8px 2px;
+    text-align: center;
+  }
+
+  th {
+    color: $color-orange;
+    font-weight: 600;
+  }
+}
+
+.pick {
+  display: none;
+
+  @media (min-width: 500px) {
+    display: inline-block;
+    background: url('../img/guitar_pick.png') center center no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 25px;
+    margin: 0 20px;
+    padding-top: 5px;
+  }
+}

@@ -1,0 +1,108 @@
+/**
+* Navigation Styles
+**/
+
+.main-nav {
+  width: 100%;
+  background: rgba($color-background, 0.8);
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: 840px) {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+}
+
+.nav li {
+  padding: 5px 5px 10px;
+}
+
+.nav li a {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $color-orange;
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: 2px solid rgba($color-orange, 0);
+
+  &:hover {
+    color: $color-black;
+    background: $color-orange;
+  }
+}
+
+.nav .name {
+  margin-right: auto;
+}
+
+.nav .name a {
+  letter-spacing: 5px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+
+/**
+* Main header
+**/
+
+header {
+
+  text-align: center;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
+  background-color: $color-orange;
+  background-size: cover;
+  overflow: hidden;
+  height: 450px;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 2.5em;
+    width: 85%;
+    color: $color-black;
+    display: block;
+    line-height: 1em;
+    margin: 0;
+
+  }
+
+  span {
+    display: inline-block;
+    width: 85%;
+    color: $color-black;
+    font-weight: 800;
+    font-size: .5em;
+    margin: 0;
+    text-shadow: 0px 3px 0px rgba($color-orange, .5);
+  }
+
+  @media (min-width: 560px) {
+    h1 {
+      font-size: 3.5em;
+    }
+  }
+
+  @media (min-width: 840px) {
+    h1 {
+      font-size: 5em;
+    }
+  }
+}
