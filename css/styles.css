@@ -205,7 +205,7 @@ footer {
     width: 30px;
     height: 30px;
     background-size: 30px 30px;
-    opacity: .4;
+    opacity: .8;
     transition: all .5s;
     text-indent: -9999px; }
   footer a.twitter {
@@ -331,7 +331,7 @@ table {
   background: rgba(158, 148, 146, 0.1);
   border-collapse: collapse; }
   table caption {
-    background: #9e9492;
+    background: #c2ad38;
     color: #333333;
     font-weight: normal;
     padding: 8px; }
